@@ -107,3 +107,23 @@ article section p {
     margin-top: 10px;
     font-style: italic;
 }
+/* Add this to your style.css */
+
+/* 1. Spacing between every paragraph */
+p {
+    margin-bottom: 1.8em; /* Creates a comfortable gap between paragraphs */
+    line-height: 1.8;      /* Increases space between lines for better readability */
+}
+
+/* 2. Spacing between major sections (The 4 Member Parts) */
+section {
+    margin-bottom: 80px;  /* Large gap to separate Tuan, Gia Phat, etc. */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #333; /* Subtle line to separate team members */
+}
+
+/* 3. Extra space above headings */
+h2 {
+    margin-top: 60px;     /* Ensures headings aren't too close to the text above */
+    margin-bottom: 25px;
+}
