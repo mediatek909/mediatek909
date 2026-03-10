@@ -77,3 +77,33 @@ h2 {
     font-weight: bold;
     font-size: 1.2em;
 }
+/* Add this to your existing style.css */
+article section p {
+    text-align: justify; /* This justifies the text */
+    text-justify: inter-word; /* Improves spacing between words */
+    margin-bottom: 20px;
+}
+
+/* Optional: Disaster-themed image container */
+.media-container {
+    width: 100%;
+    margin: 40px 0;
+    padding: 10px;
+    background: #222; /* Dark frame for the media */
+    border: 1px solid #444;
+    text-align: center;
+}
+
+.media-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.caption {
+    font-size: 0.85em;
+    color: #f1c40f; /* Safety Yellow caption */
+    margin-top: 10px;
+    font-style: italic;
+}
