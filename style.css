@@ -61,22 +61,15 @@ h2 {
     margin-bottom: 50px;
 }
 
-#references {
-    margin-top: 80px;
-    font-size: 0.85em;
-    color: #888;
-    border-top: 1px solid #333;
-    padding-top: 40px;
+/* Special CSS for the entire citation list */
+.ref-list {
+    white-space: pre-wrap; /* Preserve the line breaks from your Word doc */
+    text-indent: -2.5em;    /* Create the standard 'Hanging Indent' look */
+    padding-left: 2.5em;   /* Align the text properly */
+    text-align: left;      /* Do NOT justify the reference list */
+    line-height: 1.6;
 }
 
-#ref-list li { margin-bottom: 12px; }
-
-/* Highlight for the "3,565 Accidents" stat */
-.alert-stat {
-    color: #c0392b;
-    font-weight: bold;
-    font-size: 1.2em;
-}
 /* Add this to your existing style.css */
 article section p {
     text-align: justify; /* This justifies the text */
