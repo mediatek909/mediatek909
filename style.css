@@ -62,12 +62,21 @@ h2 {
 }
 
 /* Special CSS for the entire citation list */
+/* Professional APA Reference List */
 .ref-list {
-    white-space: pre-wrap; /* Preserve the line breaks from your Word doc */
-    text-indent: -2.5em;    /* Create the standard 'Hanging Indent' look */
-    padding-left: 2.5em;   /* Align the text properly */
-    text-align: left;      /* Do NOT justify the reference list */
+    list-style-type: none; /* Removes bullets */
+    padding-left: 0;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.ref-list li {
+    text-indent: -2em;      /* This creates the 'Hanging' look */
+    padding-left: 2em;     /* This keeps the indent aligned */
+    margin-bottom: 18px;   /* THIS FIXES THE STICKINESS */
     line-height: 1.6;
+    font-size: 0.9em;
+    color: #bbb;           /* Clean look for the disaster theme */
 }
 
 /* Add this to your existing style.css */
