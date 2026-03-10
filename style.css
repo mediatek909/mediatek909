@@ -129,3 +129,20 @@ h2 {
     margin-top: 60px;     /* Ensures headings aren't too close to the text above */
     margin-bottom: 25px;
 }
+
+.image-row {
+    display: flex;
+    justify-content: space-between; /* Creates space between the two images */
+    gap: 20px;                      /* Specific gap size */
+    margin: 40px 0;
+}
+
+.image-row .media-container {
+    flex: 1;                        /* Ensures both take up equal width */
+    max-width: 48%;                 /* Prevents them from touching */
+}
+
+.image-row img {
+    width: 100%;
+    height: auto;
+}
